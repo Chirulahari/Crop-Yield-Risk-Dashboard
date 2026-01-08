@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Yield Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Crop Yield Prediction Web App</h2>
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="dataset" required>
+        <br><br>
+        <button type="submit">Run Model</button>
+    </form>
+</div>
+
+</body>
+</html>

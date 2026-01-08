@@ -1,0 +1,10 @@
+flask
+dash
+plotly
+pandas
+numpy
+lightgbm
+scikit-learn
+scipy
+properscoring
+gunicorn
